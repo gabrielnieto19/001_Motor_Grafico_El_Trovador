@@ -1,0 +1,22 @@
+PARA PODER MOSTRAR DE UNA MANERA GRAFICA LAS COLICIONES.
+
+descomentar en la clase Mapa:
+desde la linea 143 a 149 lo siguiente:
+
+                /*
+                g.setColor(Color.green);
+                for (int r = 0; r < areasColicion.size(); r++){
+                    Rectangle area = areasColicion.get(r);
+                    g.drawRect(area.x,area.y,area.width,area.height);
+                }
+                 */
+descomentar en la clase Jugador:
+desde la linea 247 a 253 lo siguiente:
+
+        /*
+        g.setColor(Color.red);
+        g.drawRect(LIMITE_ARRIBA.x, LIMITE_ARRIBA.y, LIMITE_ARRIBA.width,LIMITE_ARRIBA.height);
+        g.drawRect(LIMITE_ABAJO.x, LIMITE_ABAJO.y, LIMITE_ABAJO.width,LIMITE_ABAJO.height);
+        g.drawRect(LIMITE_IZQUIERDA.x, LIMITE_IZQUIERDA.y, LIMITE_IZQUIERDA.width, LIMITE_IZQUIERDA.height);
+        g.drawRect(LIMITE_DERECHA.x, LIMITE_DERECHA.y, LIMITE_DERECHA.width,LIMITE_DERECHA.height);
+    */
